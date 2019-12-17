@@ -69,7 +69,7 @@ spring:
     default-encoding: utf-8
     host: smtp.qq.com
     username: 749846844@qq.com
-#    mbtoxfyzlbnqbccb
+#    mbtoxfyzlbnqbccb uuumexvestrvbdii zfalocrmwcbzbehc
     password: koabzpvevxuxbeag
     protocol: smtps
   # 资源信息
@@ -101,16 +101,16 @@ spring:
           druid:
               # 主库数据源
               master:
-                  url: jdbc:mysql://localhost:3306/cwd_boring?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8
-                  username: root
-                  encoded-password: B2v71f9TGEinS8kn/4xssw==
+                  url: jdbc:mysql://192.168.1.63:3306/cwd_boring?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8
+                  username: yfsq
+                  encoded-password: XOqi3df9y3N+8WB5Nh1rhg==
               # 从库数据源
               slave:
                   # 从数据源开关/默认关闭
                   enabled: false
-                  url: jdbc:mysql://localhost:3306/second?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8
-                  username: root
-                  encoded-password: B2v71f9TGEinS8kn/4xssw==
+                  url: jdbc:mysql://192.168.1.63:3306/second?useUnicode=true&characterEncoding=utf8&zeroDateTimeBehavior=convertToNull&useSSL=true&serverTimezone=GMT%2B8
+                  username: yfsq
+                  encoded-password: XOqi3df9y3N+8WB5Nh1rhg==
               # 初始连接数
               initialSize: 5
               # 最小连接池数量
